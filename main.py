@@ -20,3 +20,6 @@ tool = TavilySearch(
     # exclude_domains=None
 )
 
+result=tool.invoke({"query":"Sravya Vemuri, Pace University"})
+output=result["results"][0]["url"]
+print(output)
